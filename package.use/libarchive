@@ -1,0 +1,2 @@
+app-arch/libarchive -lz4 -zstd
+app-arch/zstd -lz4

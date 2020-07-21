@@ -1,0 +1,83 @@
+##################################
+### GLARBS = Gentoo With LARBS ###
+##################################
+
+## Programs selected by Luke:
+
+## This set is left for those who want to do a manual install. The x11-wm/glarbs ebuild will pull in all required programs.
+## The Layman overlay is named "glarbs-overlay" and can be added by "layman -a glarbs-overlay" as root.
+## Add the overlay before emerging "@glarbs-progs".
+
+x11-base/xorg-server ## Is the graphical server.
+x11-apps/xwininfo ## Allows querying information about windows.
+x11-apps/xinit ## Starts the graphical server.
+x11-misc/xdg-utils ## Are filetype utilities.
+x11-libs/libX11 ## Is required for the compilation of some programs.
+x11-libs/libXft ## Is required for the compilation of some programs.
+app-crypt/gcr ## Is required for the compilation of some programs.
+media-libs/fontconfig ## Is required for the compilation of some programs.
+media-fonts/libertine ## Provides the sans and serif fonts for GLARBS.
+app-misc/lf ## Is an extensive terminal file manager that everyone likes. (Layman Overlay)
+x11-misc/arandr ## Is a UI for screen adjustment.
+sys-devel/bc ## Is used for a dropdown calculator.
+app-office/calcurse ## Is a lightweight terminal-based calendar.
+x11-misc/picom ## Is for transparency and removing screen-tearing.
+x11-apps/xprop ## Is a tool for detecting window properties.
+sys-fs/dosfstools ## Allows your computer to access dos-like filesystems.
+x11-libs/libnotify ## Allows desktop notifications.
+sys-apps/dbus ## Facilitates inter-process communication.
+x11-misc/dunst ## Is a suckless notification system.
+sys-fs/exfat-utils ## Allows management of FAT drives.
+media-gfx/sxiv ## Is a minimalist image viewer.
+x11-misc/xwallpaper ## Sets the wallpaper.
+media-video/ffmpeg ## Can record and splice video and audio on the command line.
+gnome-base/gnome-keyring ## Serves as the system keyring.
+x11-themes/arc-theme ## Gives the dark GTK theme.
+app-editors/neovim ## A tidier vim with some useful features.
+media-sound/mpd ## Is a lightweight music daemon.
+media-sound/mpc ## Is a terminal interface for mpd.
+media-video/mpv ## Is the patrician's choice video player.
+sys-apps/man-db ## lets you read man pages of programs.
+media-sound/ncmpcpp ## A ncurses interface for music with multiple formats and a powerful tag editor.
+net-news/newsboat ## Is a terminal RSS client.
+#www-client/brave-bin ## Is an elegant browser with built-in adblocking, tor and other features. (Layman Overlay)
+media-fonts/noto-emoji ## Is an emoji font.
+media-fonts/quivira ## Provides unicode and emoji symbols." Recommended font by Gentoo. Original font, media-fonts/symbola, is removed by Gentoo, because the use of an overly restrictive license.
+sys-fs/ntfs3g ## Allows accessing NTFS partitions.
+media-sound/pulseaudio ## Is the audio system.
+media-sound/pulsemixer ## Is an audio controler.
+media-sound/pamixer ## Is a command-line audio interface. (Layman Overlay)
+app-office/sc ## Is an Excel-like terminal spreadsheet manager.
+media-gfx/maim ## Can take quick screenshots at your request.
+app-misc/abook ## Is an offline addressbook usable by neomutt.
+net-misc/socat ## Is a socket utility.
+x11-misc/unclutter ## hides an inactive mouse.
+app-arch/unrar ## Extracts rar's.
+app-arch/unzip ## Unzips zips.
+www-client/lynx ## Is a terminal browser.
+x11-misc/xcape ## Gives the special escape/super mappings of GLARBS.
+x11-misc/xclip ## Allows for copying and pasting from the command line.
+x11-misc/xdotool ## Provides window action utilities on the command line.
+x11-apps/xdpyinfo ## Aids with resolution determination and screen recording.
+net-misc/youtube-dl ## Can download any YouTube video (or playlist or channel) when given the link.
+app-text/zathura ## Is a pdf viewer with vim-like bindings.
+app-text/zathura-pdf-mupdf ## Allows mupdf pdf compatibility in zathura.
+app-text/poppler ## Manipulates .pdfs and gives .pdf previews and other .pdf functions.
+media-video/mediainfo ## Shows audio and video information.
+app-arch/atool ## Manages and gives information about archives.
+app-shells/fzf ## Is a fuzzy finder tool.
+app-text/highlight ## Can highlight code output.
+#x11-apps/xbacklight ## Enables changing screen brightness levels.
+app-shells/fast-syntax-highlighting ## Provides syntax highlighting in the shell. (Layman Overlay)
+app-misc/task-spooler ## Queues commands or files for download. (Layman Overlay)
+sys-fs/simple-mtpfs ## Enables the mounting of cell phones.
+x11-apps/setxkbmap ## Allows GLARBS's unique keyboard bindings.
+x11-apps/xmodmap ## Allows GLARBS's unique keyboard bindings.
+x11-apps/xsetroot ## Sets status bar and other X properies.
+x11-apps/xset ## Allows speeding up the X rate.
+x11-misc/glarbs-dwmblocks ## Serves as the modular status bar.
+x11-misc/glarbs-dmenu ## Runs commands and provides a UI for selection.
+x11-terms/glarbs-st ## Is a copy of Luke's custom build of suckless's terminal emulator.
+x11-wm/glarbs-dwm ## Is the window manager.
+app-misc/glarbs-mutt-wizard ## Is a light-weight terminal-based email system.
+x11-misc/slock ## Allows you to lock your computer, and quickly unlock with your password.
