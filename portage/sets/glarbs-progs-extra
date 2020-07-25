@@ -1,0 +1,85 @@
+##################################
+### GLARBS = Gentoo With LARBS ###
+##################################
+
+## Programs so that LARBS can work on Gentoo:
+
+## This set is left for those who want to do a manual install. The x11-wm/glarbs ebuild will pull in all required programs.
+
+## General
+
+app-admin/sudo ## Gives user elevated privileges.
+app-admin/doas ## Allows you to run commands as super user or another user, alternative to sudo from OpenBSD.
+dev-vcs/git ## Stupid content tracker: distributed VCS designed for speed and efficiency.
+net-misc/curl ## A Client that groks URLs.
+net-misc/wget ## Network utility to retrieve files from the WWW.
+app-misc/neofetch ## Simple information system script.
+app-admin/syslog-ng ## Syslog replacement with advanced filtering features.
+app-admin/logrotate ## Rotates, compresses, and mails system logs.
+sys-process/cronie ## Cronie is a standard UNIX daemon cron based on the original vixie-cron.
+sys-apps/mlocate ## Merging locate is an utility to index and quickly search for files.
+sys-boot/grub:2 ## GNU GRUB boot loader.
+
+## Network
+
+net-misc/dhcp ## ISC Dynamic Host Configuration Protocol (DHCP) client/server.
+net-misc/networkmanager ## A set of co-operative tools that make networking simple and straightforward.
+
+## Configuration
+
+media-sound/alsa-utils ## Advanced Linux Sound Architecture Utils (alsactl, alsamixer, etc.)
+app-portage/cpuid2cpuflags ## Tool to guess CPU_FLAGS_* flags for the host.
+sys-apps/pciutils ## Various utilities dealing with the PCI bus.
+sys-apps/usbutils ## USB enumeration utilities.
+sys-apps/lm-sensors ## Hardware Monitoring user-space utilities.
+sys-power/acpilight ## Replacement for xbacklight that uses the ACPI interface to set brightness.
+x11-libs/libXinerama ## Is required for the compilation of some programs.
+x11-libs/libXrandr ## Is required for the compilation of some programs.
+dev-util/meld ## A graphical diff and merge tool.
+
+## Kernel
+
+sys-kernel/gentoo-sources ## Full sources including the Gentoo patchset for the 5.6 kernel tree.
+sys-kernel/linux-firmware ## Linux firmware files.
+app-arch/lzop ## Neeeded för the hardened kernel config.
+app-arch/lz4 ## Neeeded för the hardened kernel config.
+
+## dwmblocks
+## Packages used in scrips by dwmblocks.
+
+sys-process/htop ## interactive process viewer.
+net-p2p/transmission ## A fast, easy, and free BitTorrent client.
+net-p2p/tremc ## Ncurses interface for the Transmission BitTorrent client.
+
+## Zsh
+
+app-shells/zsh ## UNIX Shell similar to the Korn shell.
+app-shells/zsh-completions ## Additional completion definitions for Zsh.
+app-shells/gentoo-zsh-completions ## Gentoo specific zsh completion support (includes emerge and ebuild commands).
+
+## Libressl
+
+app-portage/gentoolkit ## Collection of administration scripts for Gentoo.
+
+## Layman
+
+app-portage/layman ## Tool to manage Gentoo overlays.
+
+## Nvidia
+
+x11-apps/mesa-progs ## Mesa's OpenGL utility and demo programs (glxgears and glxinfo) used by Nvidia.
+x11-drivers/nvidia-drivers ## NVIDIA Accelerated Graphics Driver (proprietary driver).
+x11-drivers/xf86-video-nouveau ## Nouveau is the open source driver for NVIDIA graphic cards.
+
+## Intel
+
+x11-drivers/xf86-video-intel ## Intel video drivers.
+
+## Virtualbox Gentoo host
+
+x11-drivers/xf86-video-vboxvideo ## VirtualBox guest video driver.
+x11-drivers/xf86-video-vmware ## VMware SVGA video driver.
+
+## Virtualbox Gentoo guest
+
+app-emulation/virtualbox-guest-additions ## VirtualBox kernel modules and user-space tools for Gentoo guests.

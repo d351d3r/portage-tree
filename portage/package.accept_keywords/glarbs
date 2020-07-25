@@ -1,0 +1,21 @@
+app-misc/glarbs-mutt-wizard ~amd64
+app-emulation/virtualbox-guest-additions ~amd64
+
+app-misc/lf ~amd64
+app-misc/task-spooler ~amd64
+
+app-shells/fast-syntax-highlighting ~amd64
+app-shells/fzf ~amd64
+
+dev-libs/libressl
+
+media-gfx/maim ~amd64
+x11-wm/glarbs-dwm ~amd64
+media-sound/pulsemixer ~amd64
+x11-terms/glarbs-st ~amd64
+net-p2p/tremc ~amd64
+x11-misc/glarbs-dwmblocks ~amd64
+www-client/brave-bin ~amd64
+x11-misc/glarbs-dmenu ~amd64
+x11-misc/slop ~amd64
+x11-misc/xcape ~amd64

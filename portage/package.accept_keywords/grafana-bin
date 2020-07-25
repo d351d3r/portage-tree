@@ -1,0 +1,3 @@
+www-apps/grafana-bin ~amd64
+app-metrics/node_exporter ~amd64
+app-metrics/prometheus-bin ~amd64
